@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		562274D2218B2256009481E5 /* Sword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562274D1218B2256009481E5 /* Sword.swift */; };
+		562274D4218B2291009481E5 /* Shield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562274D3218B2291009481E5 /* Shield.swift */; };
+		562274D6218B2971009481E5 /* Knight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562274D5218B2971009481E5 /* Knight.swift */; };
+		562274D8218B29F0009481E5 /* Commander.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562274D7218B29F0009481E5 /* Commander.swift */; };
+		562274DA218B2A0D009481E5 /* Soldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562274D9218B2A0D009481E5 /* Soldier.swift */; };
+		562A7701219461A1006EF296 /* FightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A7700219461A1006EF296 /* FightController.swift */; };
+		562AE05A21CBB05600176E1E /* SingleSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562AE05921CBB05600176E1E /* SingleSelectViewController.swift */; };
+		562EB3B821789FDD00EF1EFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562EB3B721789FDD00EF1EFF /* AppDelegate.swift */; };
+		562EB3BA21789FDD00EF1EFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562EB3B921789FDD00EF1EFF /* ViewController.swift */; };
+		562EB3BD21789FDD00EF1EFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562EB3BB21789FDD00EF1EFF /* Main.storyboard */; };
+		562EB3BF21789FDD00EF1EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562EB3BE21789FDD00EF1EFF /* Assets.xcassets */; };
+		562EB3C221789FDD00EF1EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562EB3C021789FDD00EF1EFF /* LaunchScreen.storyboard */; };
+		562EB3CD21789FDD00EF1EFF /* BorbaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562EB3CC21789FDD00EF1EFF /* BorbaTests.swift */; };
+		562EB3D821789FDD00EF1EFF /* BorbaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562EB3D721789FDD00EF1EFF /* BorbaUITests.swift */; };
+		562EB3E62178A0CC00EF1EFF /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562EB3E52178A0CC00EF1EFF /* Human.swift */; };
+		56FF7F4C21C29665008B4267 /* Fighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FF7F4B21C29665008B4267 /* Fighter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		562EB3C921789FDD00EF1EFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 562EB3AC21789FDD00EF1EFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 562EB3B321789FDD00EF1EFF;
+			remoteInfo = Borba;
+		};
+		562EB3D421789FDD00EF1EFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 562EB3AC21789FDD00EF1EFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 562EB3B321789FDD00EF1EFF;
+			remoteInfo = Borba;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		562274D1218B2256009481E5 /* Sword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sword.swift; sourceTree = "<group>"; };
+		562274D3218B2291009481E5 /* Shield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shield.swift; sourceTree = "<group>"; };
+		562274D5218B2971009481E5 /* Knight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knight.swift; sourceTree = "<group>"; };
+		562274D7218B29F0009481E5 /* Commander.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commander.swift; sourceTree = "<group>"; };
+		562274D9218B2A0D009481E5 /* Soldier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soldier.swift; sourceTree = "<group>"; };
+		562A7700219461A1006EF296 /* FightController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightController.swift; sourceTree = "<group>"; };
+		562AE05921CBB05600176E1E /* SingleSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSelectViewController.swift; sourceTree = "<group>"; };
+		562EB3B421789FDD00EF1EFF /* Borba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Borba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		562EB3B721789FDD00EF1EFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		562EB3B921789FDD00EF1EFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		562EB3BC21789FDD00EF1EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		562EB3BE21789FDD00EF1EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		562EB3C121789FDD00EF1EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		562EB3C321789FDD00EF1EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562EB3C821789FDD00EF1EFF /* BorbaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BorbaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		562EB3CC21789FDD00EF1EFF /* BorbaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorbaTests.swift; sourceTree = "<group>"; };
+		562EB3CE21789FDD00EF1EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562EB3D321789FDD00EF1EFF /* BorbaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BorbaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		562EB3D721789FDD00EF1EFF /* BorbaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorbaUITests.swift; sourceTree = "<group>"; };
+		562EB3D921789FDD00EF1EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562EB3E52178A0CC00EF1EFF /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
+		56FF7F4B21C29665008B4267 /* Fighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fighter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		562EB3B121789FDD00EF1EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562EB3C521789FDD00EF1EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562EB3D021789FDD00EF1EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		562EB3AB21789FDD00EF1EFF = {
+			isa = PBXGroup;
+			children = (
+				562EB3B621789FDD00EF1EFF /* Borba */,
+				562EB3CB21789FDD00EF1EFF /* BorbaTests */,
+				562EB3D621789FDD00EF1EFF /* BorbaUITests */,
+				562EB3B521789FDD00EF1EFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		562EB3B521789FDD00EF1EFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				562EB3B421789FDD00EF1EFF /* Borba.app */,
+				562EB3C821789FDD00EF1EFF /* BorbaTests.xctest */,
+				562EB3D321789FDD00EF1EFF /* BorbaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		562EB3B621789FDD00EF1EFF /* Borba */ = {
+			isa = PBXGroup;
+			children = (
+				562EB3B721789FDD00EF1EFF /* AppDelegate.swift */,
+				562EB3B921789FDD00EF1EFF /* ViewController.swift */,
+				562EB3BB21789FDD00EF1EFF /* Main.storyboard */,
+				562EB3BE21789FDD00EF1EFF /* Assets.xcassets */,
+				562EB3C021789FDD00EF1EFF /* LaunchScreen.storyboard */,
+				562EB3C321789FDD00EF1EFF /* Info.plist */,
+				562EB3E52178A0CC00EF1EFF /* Human.swift */,
+				562274D1218B2256009481E5 /* Sword.swift */,
+				562274D3218B2291009481E5 /* Shield.swift */,
+				562274D5218B2971009481E5 /* Knight.swift */,
+				562274D7218B29F0009481E5 /* Commander.swift */,
+				562274D9218B2A0D009481E5 /* Soldier.swift */,
+				562A7700219461A1006EF296 /* FightController.swift */,
+				56FF7F4B21C29665008B4267 /* Fighter.swift */,
+				562AE05921CBB05600176E1E /* SingleSelectViewController.swift */,
+			);
+			path = Borba;
+			sourceTree = "<group>";
+		};
+		562EB3CB21789FDD00EF1EFF /* BorbaTests */ = {
+			isa = PBXGroup;
+			children = (
+				562EB3CC21789FDD00EF1EFF /* BorbaTests.swift */,
+				562EB3CE21789FDD00EF1EFF /* Info.plist */,
+			);
+			path = BorbaTests;
+			sourceTree = "<group>";
+		};
+		562EB3D621789FDD00EF1EFF /* BorbaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				562EB3D721789FDD00EF1EFF /* BorbaUITests.swift */,
+				562EB3D921789FDD00EF1EFF /* Info.plist */,
+			);
+			path = BorbaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		562EB3B321789FDD00EF1EFF /* Borba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562EB3DC21789FDD00EF1EFF /* Build configuration list for PBXNativeTarget "Borba" */;
+			buildPhases = (
+				562EB3B021789FDD00EF1EFF /* Sources */,
+				562EB3B121789FDD00EF1EFF /* Frameworks */,
+				562EB3B221789FDD00EF1EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Borba;
+			productName = Borba;
+			productReference = 562EB3B421789FDD00EF1EFF /* Borba.app */;
+			productType = "com.apple.product-type.application";
+		};
+		562EB3C721789FDD00EF1EFF /* BorbaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562EB3DF21789FDD00EF1EFF /* Build configuration list for PBXNativeTarget "BorbaTests" */;
+			buildPhases = (
+				562EB3C421789FDD00EF1EFF /* Sources */,
+				562EB3C521789FDD00EF1EFF /* Frameworks */,
+				562EB3C621789FDD00EF1EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				562EB3CA21789FDD00EF1EFF /* PBXTargetDependency */,
+			);
+			name = BorbaTests;
+			productName = BorbaTests;
+			productReference = 562EB3C821789FDD00EF1EFF /* BorbaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		562EB3D221789FDD00EF1EFF /* BorbaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562EB3E221789FDD00EF1EFF /* Build configuration list for PBXNativeTarget "BorbaUITests" */;
+			buildPhases = (
+				562EB3CF21789FDD00EF1EFF /* Sources */,
+				562EB3D021789FDD00EF1EFF /* Frameworks */,
+				562EB3D121789FDD00EF1EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				562EB3D521789FDD00EF1EFF /* PBXTargetDependency */,
+			);
+			name = BorbaUITests;
+			productName = BorbaUITests;
+			productReference = 562EB3D321789FDD00EF1EFF /* BorbaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		562EB3AC21789FDD00EF1EFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Cim;
+				TargetAttributes = {
+					562EB3B321789FDD00EF1EFF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					562EB3C721789FDD00EF1EFF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 562EB3B321789FDD00EF1EFF;
+					};
+					562EB3D221789FDD00EF1EFF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 562EB3B321789FDD00EF1EFF;
+					};
+				};
+			};
+			buildConfigurationList = 562EB3AF21789FDD00EF1EFF /* Build configuration list for PBXProject "Borba" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 562EB3AB21789FDD00EF1EFF;
+			productRefGroup = 562EB3B521789FDD00EF1EFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				562EB3B321789FDD00EF1EFF /* Borba */,
+				562EB3C721789FDD00EF1EFF /* BorbaTests */,
+				562EB3D221789FDD00EF1EFF /* BorbaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		562EB3B221789FDD00EF1EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562EB3C221789FDD00EF1EFF /* LaunchScreen.storyboard in Resources */,
+				562EB3BF21789FDD00EF1EFF /* Assets.xcassets in Resources */,
+				562EB3BD21789FDD00EF1EFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562EB3C621789FDD00EF1EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562EB3D121789FDD00EF1EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		562EB3B021789FDD00EF1EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562274D8218B29F0009481E5 /* Commander.swift in Sources */,
+				56FF7F4C21C29665008B4267 /* Fighter.swift in Sources */,
+				562274D2218B2256009481E5 /* Sword.swift in Sources */,
+				562A7701219461A1006EF296 /* FightController.swift in Sources */,
+				562AE05A21CBB05600176E1E /* SingleSelectViewController.swift in Sources */,
+				562EB3BA21789FDD00EF1EFF /* ViewController.swift in Sources */,
+				562EB3E62178A0CC00EF1EFF /* Human.swift in Sources */,
+				562274DA218B2A0D009481E5 /* Soldier.swift in Sources */,
+				562EB3B821789FDD00EF1EFF /* AppDelegate.swift in Sources */,
+				562274D4218B2291009481E5 /* Shield.swift in Sources */,
+				562274D6218B2971009481E5 /* Knight.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562EB3C421789FDD00EF1EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562EB3CD21789FDD00EF1EFF /* BorbaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562EB3CF21789FDD00EF1EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562EB3D821789FDD00EF1EFF /* BorbaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		562EB3CA21789FDD00EF1EFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 562EB3B321789FDD00EF1EFF /* Borba */;
+			targetProxy = 562EB3C921789FDD00EF1EFF /* PBXContainerItemProxy */;
+		};
+		562EB3D521789FDD00EF1EFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 562EB3B321789FDD00EF1EFF /* Borba */;
+			targetProxy = 562EB3D421789FDD00EF1EFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		562EB3BB21789FDD00EF1EFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				562EB3BC21789FDD00EF1EFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		562EB3C021789FDD00EF1EFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				562EB3C121789FDD00EF1EFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		562EB3DA21789FDD00EF1EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		562EB3DB21789FDD00EF1EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		562EB3DD21789FDD00EF1EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Borba/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cim.Borba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		562EB3DE21789FDD00EF1EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Borba/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cim.Borba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		562EB3E021789FDD00EF1EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32P5PLB5NQ;
+				INFOPLIST_FILE = BorbaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cim.BorbaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Borba.app/Borba";
+			};
+			name = Debug;
+		};
+		562EB3E121789FDD00EF1EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32P5PLB5NQ;
+				INFOPLIST_FILE = BorbaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cim.BorbaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Borba.app/Borba";
+			};
+			name = Release;
+		};
+		562EB3E321789FDD00EF1EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32P5PLB5NQ;
+				INFOPLIST_FILE = BorbaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cim.BorbaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Borba;
+			};
+			name = Debug;
+		};
+		562EB3E421789FDD00EF1EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32P5PLB5NQ;
+				INFOPLIST_FILE = BorbaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cim.BorbaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Borba;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		562EB3AF21789FDD00EF1EFF /* Build configuration list for PBXProject "Borba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562EB3DA21789FDD00EF1EFF /* Debug */,
+				562EB3DB21789FDD00EF1EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		562EB3DC21789FDD00EF1EFF /* Build configuration list for PBXNativeTarget "Borba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562EB3DD21789FDD00EF1EFF /* Debug */,
+				562EB3DE21789FDD00EF1EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		562EB3DF21789FDD00EF1EFF /* Build configuration list for PBXNativeTarget "BorbaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562EB3E021789FDD00EF1EFF /* Debug */,
+				562EB3E121789FDD00EF1EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		562EB3E221789FDD00EF1EFF /* Build configuration list for PBXNativeTarget "BorbaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562EB3E321789FDD00EF1EFF /* Debug */,
+				562EB3E421789FDD00EF1EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 562EB3AC21789FDD00EF1EFF /* Project object */;
+}
